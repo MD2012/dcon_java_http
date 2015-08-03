@@ -11,7 +11,13 @@
     <title>DCON Java Http</title>
   </head>
   <body>
-  test body
+
+  <form method="post" action="/MyServlet/index">
+      App Ident:
+      <input type="text" id="app_ident" name="app_ident"/>
+      <br/>
+      <input type="submit" value="Submit"/>
+  </form>
 
   </body>
 </html>
